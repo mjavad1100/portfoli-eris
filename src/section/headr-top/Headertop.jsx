@@ -1,16 +1,17 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import {IoIosColorPalette} from 'react-icons/io';
 import data from './data';
 import './headertop.css';
 function Headertop() {
   return (
     <div className='background'>
-    <Container>
+    <Container fluid>
       <Row>
-        {/* <Col className='contact__dor'>
-        <p>Eris Picture</p>
-        </Col> */}
+        <Col className='contact__dor'>
+       <a className='themecolor'><IoIosColorPalette/></a>
+        </Col>
         <Col>
         <div className="header__socialss">
               {

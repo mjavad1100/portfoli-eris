@@ -20,8 +20,9 @@ const App = () => {
                 <UncontrolledExample/>
                 <Burger/>
                 <About/>
-                <Servises/>
                 <Portfolio/>
+                <Servises/>
+                
                 <Testimonials/>
                 <Faqs/>
                 <Contact/>

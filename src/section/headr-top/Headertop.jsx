@@ -1,7 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import {IoIosColorPalette} from 'react-icons/io';
 import data from './data';
 import './headertop.css';
 function Headertop() {

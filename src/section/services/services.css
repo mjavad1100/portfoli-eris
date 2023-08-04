@@ -1,0 +1,93 @@
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border: 1px solid transparent;
+    border-radius: var(--border-radius-2);
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    
+}
+
+.border-gall {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--color-primary);
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    height: 350px;
+    background-color: var(--color-primary);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 0.7s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 0.7s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 0.7s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 0.7s;
+    -ms-transform-style: preserve-3d;
+    transition: 0.7s;
+    transform-style: preserve-3d;
+}
+.frontside img {
+    height: 350px;
+}
+.backside .card{
+    background-color: var(--color-primary);
+}
+.backside .card{
+    border: 0;
+    align-items: center;
+}
+.frontside img{
+    border: 2px solid transparent;
+    border-radius: var(--border-radius-2);
+}

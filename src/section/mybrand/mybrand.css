@@ -1,0 +1,64 @@
+.mybackground{
+    background-color: var(--color-light);
+}
+.myparent{
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    text-align: center;
+}
+.parentchild .btttn {
+font-size: 32px;
+color: var(--color-primary);
+background-color: var(--color-dark);
+margin-left: 18px;
+margin-right:70px;
+border: 1px solid var(--color-primary);
+border-radius: 50% ;
+padding: 6px;
+}
+.parentchild .btttn:hover{
+    background-color: var(--color-primary);
+    color: var(--color-dark);
+    border-color: var(--color-dark);
+    cursor: pointer;
+
+}
+.fonttittle{
+    font-weight:bolder ;
+    font-size: 16px;
+    color:var(--color-black);
+
+}
+.parentchild{
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    justify-content:center;
+}
+.logo p span{
+    color: var(--color-black);
+    font-weight: bolder;
+}
+.logo p {
+font-size: 40px;
+font-weight: bolder;
+color: var(--color-primary);
+margin: 0;
+
+}
+.parenchildi{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+/*media queries (tablets) */
+@media screen and (max-width:1000px){
+ 
+    .myparent {
+        display: none;
+    }
+}
+  

@@ -6,21 +6,6 @@
     flex-direction: row;
     justify-content: center;
     }
-    .themecolor{
-        font-size: 23px;
-        padding:4px;
-        margin: 0.4rem;
-        aspect-ratio:1/1;
-        color:var(--color-light);
-        display: flex;
-        place-items:center;
-        
-    }
-    .themecolor:hover{
-        cursor: pointer;
-       
-        
-    }
     .header__socialss a{
         font-size: 23px;
         padding:4px;

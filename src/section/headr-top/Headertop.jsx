@@ -7,11 +7,11 @@ import './headertop.css';
 function Headertop() {
   return (
     <div className='background'>
-    <Container fluid>
+    <Container>
       <Row>
-        <Col className='contact__dor'>
+        {/* <Col className='contact__dor'>
        <a className='themecolor'><IoIosColorPalette/></a>
-        </Col>
+        </Col> */}
         <Col>
         <div className="header__socialss">
               {

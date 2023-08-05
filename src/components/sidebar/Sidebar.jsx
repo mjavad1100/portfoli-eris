@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import "./sidebar.css";
 const Sidebar = () => {
    
-    const sideLinks = document.querySelectorAll('.sidebar .side-menu li a');
+    const sideLinksRef = useRef(); // create a ref to access the side links
 
-    sideLinks.forEach((item) => {
+    useEffect(() => {
+      // get all the links inside the ref
+      const sideLinks = sideLinksRef.current.querySelectorAll('.sidebar .side-menu li a');
+      // add event listeners to each link
+      sideLinks.forEach((item) => {
         const li = item.parentElement;
         item.addEventListener("click", () => {
           sideLinks.forEach((i) => {
@@ -13,10 +17,17 @@ const Sidebar = () => {
           li.classList.add("active");
         });
       });
+      // return a cleanup function to remove the event listeners
+      return () => {
+        sideLinks.forEach((item) => {
+          item.removeEventListener("click");
+        });
+      };
+    }, []); // pass an empty array as dependency to run only once
       
     return (
         
-        <div className="sidebar">
+        <div className="sidebar" ref={sideLinksRef}>
        
         <ul className="side-menu">
             <li><a href="#services"><i className='bx bxs-dashboard'></i>تدوین</a></li>

@@ -1,7 +1,7 @@
 import React from 'react';
 import "./sidebar.css";
 const Sidebar = () => {
-    const sideLinks = document.querySelectorAll('.sidebar .side-menu li a:not(.logout)');
+    const sideLinks = document.querySelectorAll('.sidebar .side-menu li a');
 
     sideLinks.forEach((item) => {
         const li = item.parentElement;

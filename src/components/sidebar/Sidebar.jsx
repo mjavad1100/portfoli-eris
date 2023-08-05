@@ -1,6 +1,7 @@
 import React from 'react';
 import "./sidebar.css";
 const Sidebar = () => {
+   
     const sideLinks = document.querySelectorAll('.sidebar .side-menu li a');
 
     sideLinks.forEach((item) => {
@@ -22,9 +23,9 @@ const Sidebar = () => {
             <li><a href="#se"><i className='bx bx-store-alt'></i>عکاسی</a></li>
             <li className="active"><a href="#services"><i className='bx bx-analyse'></i>کارگردانی</a></li>
         </ul>
-        
     </div>
     );
+    
 };
 
 export default Sidebar;

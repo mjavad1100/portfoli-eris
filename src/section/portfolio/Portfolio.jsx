@@ -15,7 +15,7 @@ const Portfolio = () => {
                 <Row className='myportfolio'>
                     <Col>
                     <div className='myform'>
-                    <a><BsFillCameraFill className='myicon'/></a> 
+                    <a href='#'><BsFillCameraFill className='myicon'/></a> 
                     </div>
                     <div className='capsion'>
                     <h2>عکاس</h2>
@@ -25,7 +25,7 @@ const Portfolio = () => {
                     </Col>
                     <Col>
                     <div className='myform'>
-                    <a><MdLocalMovies className='myicon'/></a> 
+                    <a href='#'><MdLocalMovies className='myicon'/></a> 
                     </div>
                     <div className='capsion'>
                     <h2>کارگردان</h2>
@@ -34,7 +34,7 @@ const Portfolio = () => {
                     </Col>
                     <Col>
                     <div className='myform'>
-                    <a><AiFillPicture className='myicon'/></a> 
+                    <a href='#'><AiFillPicture className='myicon'/></a> 
                     </div>
                     <div className='capsion'>
                     <h2>تدوین گر</h2>

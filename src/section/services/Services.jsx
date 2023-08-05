@@ -8,13 +8,15 @@ import picii from '../../img/camera2.jpg'
 import piciii from '../../img/eris15.jpg'
 import piciiii from '../../img/camera1.jpg'
 import piciiiiii from '../../img/camera3.jpg'
+import Sidebar from '../../components/sidebar/Sidebar';
 
 const Services = () => {
     return (
         <section id='services'>
             <Container>
-               
+            
             <Row>
+            <Sidebar/>
                 <Col xs={12} sm={4} md={4}>
                 <div className="image-flip">
                                         <div className="mainflip">

@@ -14,7 +14,7 @@
 .header__profile{
     width: 24rem;
     height: 22rem;
-    border-radius:50%;
+    border-radius:20px 20px;
     overflow: hidden;
     margin-bottom: 1rem;
     

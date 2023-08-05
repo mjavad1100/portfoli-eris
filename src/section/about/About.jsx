@@ -20,7 +20,7 @@ const About = () => {
         </p>
             <div className="header__cta">
               <a href='#services' className='bttn primary'>خدمات</a>
-              <a href='#portfolio' className='bttn light'>محصولات</a>
+              <a href='#contact' className='bttn light'>رزومه من</a>
             </div>
             <div className="header__socials">
               {

@@ -43,7 +43,7 @@
 }
 
 .sidebar .side-menu li.active a{
-    color: var(--success);
+    color: var(--color-primary);
 }
 
 .sidebar .side-menu li a .bx{

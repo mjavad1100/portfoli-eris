@@ -14,11 +14,11 @@
 }
 
 .sidebar .side-menu li{
-    height: 48px;
+
     background: var(--color-light);
-    margin-left: 6px;
+    margin-left: 2rem;
     border-radius: 48px  48px;
-    padding: 4px;
+    padding: 5px;
 }
 
 .sidebar .side-menu li.active{
@@ -26,29 +26,6 @@
     position: relative;
 }
 
-.sidebar .side-menu li.active::before{
-    content: "";
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    top: -40px;
-    right: 0;
-    box-shadow: 20px 20px 0 var(--grey);
-    z-index: -1;
-}
-
-.sidebar .side-menu li.active::after{
-    content: "";
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    bottom: -40px;
-    right: 0;
-    box-shadow: 20px -20px 0 var(--grey);
-    z-index: -1;
-}
 
 .sidebar .side-menu li a{
     width: 100%;
@@ -61,7 +38,7 @@
     color: var(--dark);
     white-space: nowrap;
     overflow-x: hidden;
-    padding: 7px;
+    padding: 10px;
     transition: all 0.3s ease;
 }
 

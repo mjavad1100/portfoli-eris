@@ -12,11 +12,9 @@ import Sidebar from '../../components/sidebar/Sidebar';
 
 const Services = () => {
     return (
-        <section id='services'>
             <Container>
-            
+               <Sidebar/>
             <Row>
-            <Sidebar/>
                 <Col xs={12} sm={4} md={4}>
                 <div className="image-flip">
                                         <div className="mainflip">
@@ -130,7 +128,6 @@ const Services = () => {
 
             </Row>
             </Container>
-            </section>
 
             
         

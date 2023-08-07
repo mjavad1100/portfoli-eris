@@ -14,22 +14,22 @@
     --primary: #4E4FEB;
     --light-primary: #CFE8FF;
     --grey: #eee;
-    --dark-grey: #AAAAAA;
-    --dark: #000000;
+    --dark-grey: #222831;
+    --dark: #191919;
     --danger: #D32F2F;
 	--light-danger: #FECDD3;
     --warning: #FBC02D;
     --light-warning: #FFF2C6;
     --success: #068FFF;
     --light-success: #BBF7D0;
-    --primary-hue:10000000000;
+    --primary-hue:3132;
     --black-lightness:15%;
     --dark-lightness:44%;
-    --light-lightness:94%;
+    --light-lightness:85%;
     --white-lightness:100%;
-    --color-primary:hsl(var(--primary-hue), 75%, 50%) ;
+    --color-primary:hsl(var(--primary-hue), 65%, 50%) ;
     --color-white: hsl(0,5%, var(--white-lightness));
-    --color-light:hsl(var(--primary-hue),99%, var(--light-lightness));
+    --color-light:hsl(var(--primary-hue),50%, var(--light-lightness));
     --color-black:hsl(var(--primary-hue)5%,var(--black-lightness));
     --color-dark:hsl(var(--primary-hue,5%, var(--dark-lightness)));
     /*general container variavles*/
@@ -65,7 +65,7 @@ body{
 /*general section style*/
 section{
     padding:5rem 0;
-    background: var(--color-white);
+    background: var(--dark);
     transition: var(--transition);
 }
 section:nth-child(even){
@@ -81,14 +81,14 @@ section > p{
 }
 /*general section style*/
 a{
-    color: var(--color-white);
+    color: var(--light);
     transition: var(--transition);
     text-decoration: none;
 }
 /*general heading style*/
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
-    color: var(--color-black);
+    color: var(--color-white);
 }
 h1{
     font-size: 3rem;
@@ -132,6 +132,7 @@ img{
     background-color: transparent;
     border-color:  var(--color-light);
     transform: translateY(-0.5rem);
+    color: var(--color-light);
 }
 .bttn.white{
     background: var(--color-white);

@@ -55,7 +55,7 @@
     transform: rotateY(-180deg);
     -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
     -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px var(--color-primary);
     height: 350px;
     background-color: var(--color-primary);
 }

@@ -12,6 +12,8 @@ import Sidebar from '../../components/sidebar/Sidebar';
 
 const Services = () => {
     return (
+        <section>
+
             <Container>
                <Sidebar/>
             <Row>
@@ -56,9 +58,6 @@ const Services = () => {
                                         </div>
                                     </div>
                 </Col>
-
-
-
             </Row>
 
             <Row>
@@ -77,8 +76,7 @@ const Services = () => {
                                                             طراحان گرافیک است،لورم ایپسوم ها کاربردهای</p>
                                                             <a href='#portfolio' className='bttn light'>...اطلاعات بیشتر</a>
 
-                                                    </div>
-                                                
+                                                    </div>       
                                             </div>
                                         </div>
                                     </div>
@@ -118,8 +116,6 @@ const Services = () => {
                                                             طراحان گرافیک است،لورم ایپسوم ها کاربردهای</p>
                                                             <a href='#portfolio' className='bttn light'>...اطلاعات بیشتر</a>
                                                     </div>
-                                                    
-
                                             </div>
                                         </div>
                                     </div>
@@ -128,9 +124,8 @@ const Services = () => {
 
             </Row>
             </Container>
+            </section>
 
-            
-        
     );
 };
 

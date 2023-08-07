@@ -2,8 +2,11 @@
     height:fit-content;
     display: grid;
     place-items: center;
-    background: var(--color-dark);
+    background: var(--color-black);
     transition: var(--transition);
+}
+.myptag{
+    color: var(--color-white);
 }
 .header__container{
     display: flex;

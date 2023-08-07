@@ -1,13 +1,13 @@
 import React from 'react';
 import "../myteam/myteam.css";
-import piciii from '../../img/eris.jpg'
 
-const Myteam = () => {
+
+const Myteam = (props) => {
     return (
         <div className="">
         <div className="our-team border">
             <div className="picture">
-                <img src={piciii}/>
+            <img src={props.image} alt='Team member' />
             </div>
             <div className="team-content">
                 <h3 className="name">لورم ایپسوم</h3>

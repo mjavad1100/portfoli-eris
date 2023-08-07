@@ -8,15 +8,43 @@ import picii from '../../img/camera2.jpg'
 import piciii from '../../img/eris15.jpg'
 import piciiii from '../../img/camera1.jpg'
 import piciiiiii from '../../img/camera3.jpg'
-import Sidebar from '../../components/sidebar/Sidebar';
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
+
 
 const Services = () => {
     return (
         <section>
 
             <Container>
-               <Sidebar/>
-            <Row>
+               <Tabs
+      defaultActiveKey="profile"
+      id="justify-tab-example"
+      className="mb-3"
+      justify
+    >
+      <Tab eventKey="home" title="عکاسی" className='colortab'>
+      <Row>
+                    <Col xs={12} sm={4} md={8}>
+                <div className="image-flip">
+                                        <div className="mainflip">
+                                            <div className="frontside">
+                                            <img src={piciiii} alt="third"/>
+                                            </div>
+                                            <div className="backside hoverclass">
+                                                    <div className="card card-body text-center p-5 mt-4">
+                                                        <h5 className="card-title font-weight-bold text-white">لورم ایپسوم
+                                                        </h5>
+                                                        <p className="card-text text-white text-justify">لورم ایپسوم متن
+                                                            ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از
+                                                            طراحان گرافیک است،لورم ایپسوم ها کاربردهای</p>
+                                                            <a href='#portfolio' className='bttn light'>...اطلاعات بیشتر</a>
+
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                </Col>
                 <Col xs={12} sm={4} md={4}>
                 <div className="image-flip">
                                         <div className="mainflip">
@@ -38,11 +66,33 @@ const Services = () => {
                                         </div>
                                     </div>
                 </Col>
-                <Col xs={12} sm={4} md={8}>
+            
+            </Row> 
+      <Row>
+      <Col xs={12} sm={4} md={4}>
                 <div className="image-flip">
                                         <div className="mainflip">
                                             <div className="frontside">
-                                            <img src={piciiii} alt="third"/>
+                                            <img src={piciiiiii} alt="third"/>
+                                            </div>
+                                            <div className="backside hoverclass">
+                                                    <div className="card card-body text-center p-5 mt-4">
+                                                        <h5 className="card-title font-weight-bold text-white">لورم ایپسوم
+                                                        </h5>
+                                                        <p className="card-text text-white text-justify">لورم ایپسوم متن
+                                                            ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از
+                                                            طراحان گرافیک است،لورم ایپسوم ها کاربردهای</p>
+                                                            <a href='#portfolio' className='bttn light'>...اطلاعات بیشتر</a>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                </Col>
+                <Col xs={12} sm={4} md={4}>
+                <div className="image-flip">
+                                        <div className="mainflip">
+                                            <div className="frontside">
+                                            <img src={picii} alt="third"/>
                                             </div>
                                             <div className="backside hoverclass">
                                                     <div className="card card-body text-center p-5 mt-4">
@@ -58,9 +108,33 @@ const Services = () => {
                                         </div>
                                     </div>
                 </Col>
-            </Row>
+                <Col xs={12} sm={4} md={4}>
+                <div className="image-flip">
+                                        <div className="mainflip">
+                                            <div className="frontside">
+                                                <img src={pici} alt="third"/>
+                                            </div>
+                                            <div className="backside hoverclass">
+                                                    <div className="card card-body text-center p-5 mt-4">
+                                                        <h5 className="card-title font-weight-bold text-white">لورم ایپسوم
+                                                        </h5>
+                                                        <p className="card-text text-white text-justify">لورم ایپسوم متن
+                                                            ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از
+                                                            طراحان گرافیک است،لورم ایپسوم ها کاربردهای</p>
+                                                            <a href='#portfolio' className='bttn light'>...اطلاعات بیشتر</a>
 
-            <Row>
+                                                    </div>       
+                                            </div>
+                                        </div>
+                                    </div>
+                </Col>
+  
+
+
+            </Row>   
+                </Tab>
+      <Tab eventKey="profile" title="تدوین" className='colortab'>
+      <Row>
                 <Col xs={12} sm={4} md={4}>
                 <div className="image-flip">
                                         <div className="mainflip">
@@ -122,7 +196,74 @@ const Services = () => {
                 </Col>
 
 
-            </Row>
+            </Row>      </Tab>
+      <Tab eventKey="longer-tab" title="کارگردانی" className='colortab'>
+      <Row>
+                <Col xs={12} sm={4} md={4}>
+                <div className="image-flip">
+                                        <div className="mainflip">
+                                            <div className="frontside">
+                                                <img src={pici} alt="third"/>
+                                            </div>
+                                            <div className="backside hoverclass">
+                                                    <div className="card card-body text-center p-5 mt-4">
+                                                        <h5 className="card-title font-weight-bold text-white">لورم ایپسوم
+                                                        </h5>
+                                                        <p className="card-text text-white text-justify">لورم ایپسوم متن
+                                                            ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از
+                                                            طراحان گرافیک است،لورم ایپسوم ها کاربردهای</p>
+                                                            <a href='#portfolio' className='bttn light'>...اطلاعات بیشتر</a>
+
+                                                    </div>       
+                                            </div>
+                                        </div>
+                                    </div>
+                </Col>
+                <Col xs={12} sm={4} md={4}>
+                <div className="image-flip">
+                                        <div className="mainflip">
+                                            <div className="frontside">
+                                            <img src={picii} alt="third"/>
+                                            </div>
+                                            <div className="backside hoverclass">
+                                                    <div className="card card-body text-center p-5 mt-4">
+                                                        <h5 className="card-title font-weight-bold text-white">لورم ایپسوم
+                                                        </h5>
+                                                        <p className="card-text text-white text-justify">لورم ایپسوم متن
+                                                            ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از
+                                                            طراحان گرافیک است،لورم ایپسوم ها کاربردهای</p>
+                                                            <a href='#portfolio' className='bttn light'>...اطلاعات بیشتر</a>
+
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                </Col>
+                <Col xs={12} sm={4} md={4}>
+                <div className="image-flip">
+                                        <div className="mainflip">
+                                            <div className="frontside">
+                                            <img src={piciiiiii} alt="third"/>
+                                            </div>
+                                            <div className="backside hoverclass">
+                                                    <div className="card card-body text-center p-5 mt-4">
+                                                        <h5 className="card-title font-weight-bold text-white">لورم ایپسوم
+                                                        </h5>
+                                                        <p className="card-text text-white text-justify">لورم ایپسوم متن
+                                                            ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از
+                                                            طراحان گرافیک است،لورم ایپسوم ها کاربردهای</p>
+                                                            <a href='#portfolio' className='bttn light'>...اطلاعات بیشتر</a>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                </Col>
+
+
+            </Row>       </Tab>
+    </Tabs>
+ 
+
             </Container>
             </section>
 

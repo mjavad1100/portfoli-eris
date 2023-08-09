@@ -1,5 +1,4 @@
 import './portfolio.css'
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import {BsFillCameraFill} from 'react-icons/bs'
@@ -11,7 +10,6 @@ import {AiFillPicture} from 'react-icons/ai'
 const Portfolio = () => {
     return (
         <section id='portfolio'>
-            <Container>
                 <Row className='myportfolio'>
                     <Col>
                     <div className='myform'>
@@ -42,7 +40,6 @@ const Portfolio = () => {
                     </div>
                     </Col>
                 </Row>
-            </Container>
         </section>
     );
 };

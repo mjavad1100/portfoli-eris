@@ -10,8 +10,7 @@ import Burger from './section/navbar/Burger';
 import 'bootstrap/dist/css/bootstrap-grid.css';
 import Headertop from './section/headr-top/Headertop';
 import UncontrolledExample from './section/headr-top/UncontrolledExample';
-import Myteam from './components/myteam/Myteam';
-
+import Background from './components/background/Background';
 
 const App = () => {
     return (
@@ -23,6 +22,7 @@ const App = () => {
                 <About/>
                 <Portfolio/>
                 <Servises/>
+                <Background/>
                 
                 <Testimonials/>
                 <Faqs/>

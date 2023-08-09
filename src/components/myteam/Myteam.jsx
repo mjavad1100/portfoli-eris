@@ -15,20 +15,20 @@ const Myteam = (props) => {
             </div>
             <ul className="social">
                 <li>
-                    <a href="https://codepen.io/collection/XdWJOQ/" className="bx bxl-twitter"
-                        aria-hidden="true"></a>
+                    <a href="https://codepen.io/collection/XdWJOQ/"
+                        aria-hidden="true"><i  className="bx bxl-twitter"></i></a>
                 </li>
                 <li>
-                    <a href="https://codepen.io/collection/XdWJOQ/" className="bx bxl-instagram-alt"
-                        aria-hidden="true"></a>
+                    <a href="https://codepen.io/collection/XdWJOQ/"
+                        aria-hidden="true"><i  className="bx bxl-instagram-alt"></i></a>
                 </li>
                 <li>
-                    <a href="https://codepen.io/collection/XdWJOQ/" className="bx bxl-facebook-circle"
-                        aria-hidden="true"></a>
+                    <a href="https://codepen.io/collection/XdWJOQ/"
+                        aria-hidden="true"><i className='bx bxl-facebook-circle'></i></a>
                 </li>
                 <li>
-                    <a href="https://codepen.io/collection/XdWJOQ/" className="bx bxl-github"
-                        aria-hidden="true"></a>
+                    <a href="https://codepen.io/collection/XdWJOQ/"
+                        aria-hidden="true"><i className='bx bxl-github'></i></a>
                 </li>
             </ul>
         </div>

@@ -1,11 +1,10 @@
 import './background.css'
 import React from "react";
-import mypic from '../../img/camera3.jpg'
+import mypic from '../../img/camera3.jpg';
 
 const Background = () => {
     
         return (
-          <div className="App">
                   <div className='mybody'>
     <div class="animation01">
         <div></div>
@@ -134,7 +133,7 @@ const Background = () => {
     </div>
 
     <div class="animation08">
-        <img className='mypic' src={mypic}/>
+        <img src={mypic}/>
         <div></div>
         <div></div>
         <div></div>
@@ -143,7 +142,6 @@ const Background = () => {
 
     </div> 
     </div>
-          </div>
         );
       };
   

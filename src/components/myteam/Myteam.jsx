@@ -4,6 +4,7 @@ import "../myteam/myteam.css";
 
 const Myteam = (props) => {
     return (
+        
         <div className="">
         <div className="our-team border">
             <div className="picture">

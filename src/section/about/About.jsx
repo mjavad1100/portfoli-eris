@@ -1,4 +1,4 @@
-import HeaderImage from '../../img/eris13.jpg'
+import HeaderImage from '../../img/marhooom.jpg'
 import './about.css'
 import data from './data';
 const About = () => {

@@ -15,7 +15,7 @@
     --light-primary: #CFE8FF;
     --grey: #eee;
     --dark-grey: #222831;
-    --dark: #191919;
+    --dark: #303841;
     --danger: #D32F2F;
 	--light-danger: #FECDD3;
     --warning: #FBC02D;
@@ -65,8 +65,8 @@ body{
 /*general section style*/
 section{
     padding:5rem 0;
-    background: var(--dark);
-    transition: var(--transition);
+background-color:#000000;    
+transition: var(--transition);
 }
 section:nth-child(even){
     background:var(--color-light);

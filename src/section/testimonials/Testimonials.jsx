@@ -16,6 +16,7 @@ const Testimonials = () => {
     return (
        <section id='testimonials'>
         <Container>
+
             <Row>
                 {/* Map over the array and pass each image as a prop */}
                 {teamImages.map(image => (

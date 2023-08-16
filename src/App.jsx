@@ -23,11 +23,8 @@ const App = () => {
                 <Portfolio/>
                 <Servises/>
                 <Wallpaper/>
-
                 <Testimonials/>
-
                 <Faqs/>
-                
                 <Contact/>
                 <FloatingNav/>
                 <Footer/>

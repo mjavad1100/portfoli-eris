@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import React from 'react';
-import pici from '../../img/photo_1.jpg'
+import pici from '../../img/photo_13.jpg'
 import picii from '../../img/photo_2.jpg'
 import piciii from '../../img/photo_3.jpg'
 import piciiii from '../../img/photo_4.jpg'

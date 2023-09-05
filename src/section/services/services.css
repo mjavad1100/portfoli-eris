@@ -91,3 +91,6 @@
     border: 2px solid transparent;
     border-radius: var(--border-radius-2);
 }
+.colortab{
+    color: var(--color-primary) !important;
+}

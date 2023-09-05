@@ -3,11 +3,11 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import React from 'react';
-import pici from '../../img/eric12.jpg'
-import picii from '../../img/camera2.jpg'
-import piciii from '../../img/eris15.jpg'
-import piciiii from '../../img/camera1.jpg'
-import piciiiiii from '../../img/camera3.jpg'
+import pici from '../../img/photo_1.jpg'
+import picii from '../../img/photo_2.jpg'
+import piciii from '../../img/photo_3.jpg'
+import piciiii from '../../img/photo_4.jpg'
+import piciiiiii from '../../img/photo_5.jpg'
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 
@@ -23,7 +23,7 @@ const Services = () => {
       className="mb-3"
       justify
     >
-      <Tab eventKey="home" title="عکاسی" className='colortab'>
+      <Tab eventKey="home" title="عکاسی"  tabClassName='colortab'>
       <Row>
                     <Col xs={12} sm={4} md={8}>
                 <div className="image-flip">
@@ -133,7 +133,7 @@ const Services = () => {
 
             </Row>   
                 </Tab>
-      <Tab eventKey="profile" title="تدوین" className='colortab'>
+      <Tab eventKey="profile" title="تدوین" tabClassName='colortab'>
       <Row>
                 <Col xs={12} sm={4} md={4}>
                 <div className="image-flip">
@@ -197,7 +197,7 @@ const Services = () => {
 
 
             </Row>      </Tab>
-      <Tab eventKey="longer-tab" title="کارگردانی" className='colortab'>
+      <Tab eventKey="longer-tab" title="کارگردانی" tabClassName='colortab'>
       <Row>
                 <Col xs={12} sm={4} md={4}>
                 <div className="image-flip">

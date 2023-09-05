@@ -10,7 +10,6 @@ import Burger from './section/navbar/Burger';
 import 'bootstrap/dist/css/bootstrap-grid.css';
 import Headertop from './section/headr-top/Headertop';
 import UncontrolledExample from './section/headr-top/UncontrolledExample';
-import  Wallpaper  from './components/wallpaper/Walpaper';
 
 const App = () => {
     return (
@@ -22,7 +21,6 @@ const App = () => {
                 <About/>
                 <Portfolio/>
                 <Servises/>
-                <Wallpaper/>
                 <Testimonials/>
                 <Faqs/>
                 <Contact/>

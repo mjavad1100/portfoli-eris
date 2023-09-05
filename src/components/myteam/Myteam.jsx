@@ -5,8 +5,7 @@ import "../myteam/myteam.css";
 const Myteam = (props) => {
     return (
         
-        <div className="">
-        <div className="our-team border">
+        <div className="our-team">
             <div className="picture">
             <img src={props.image} alt='Team member' />
             </div>
@@ -33,7 +32,6 @@ const Myteam = (props) => {
                 </li>
             </ul>
         </div>
-    </div>
     );
 };
 

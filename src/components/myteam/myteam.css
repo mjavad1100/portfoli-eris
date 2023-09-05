@@ -109,3 +109,7 @@
     color: var(--color-primary);
     background-color: #f7f5ec;
 }
+.our-team{
+    
+    border: 4px inset var(--color-primary)!important;
+}

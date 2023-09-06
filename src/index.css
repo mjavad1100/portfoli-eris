@@ -9,7 +9,7 @@
 }
 
 :root{
-    /* 1  16 700 560 935 40*/
+    /* 1  16 700 560 935 40 153*/
     --light: #f6f6f9;
     --primary: #4E4FEB;
     --light-primary: #CFE8FF;
@@ -27,9 +27,9 @@
     --dark-lightness:44%;
     --light-lightness:85%;
     --white-lightness:100%;
-    --color-primary:hsl(var(--primary-hue), 65%, 50%) ;
+    --color-primary:hsl(var(--primary-hue), 57%, 50%) ;
     --color-white: hsl(0,5%, var(--white-lightness));
-    --color-light:hsl(var(--primary-hue),50%, var(--light-lightness));
+    --color-light:hsl(var(--primary-hue),70%, var(--light-lightness));
     --color-black:hsl(var(--primary-hue)5%,var(--black-lightness));
     --color-dark:hsl(var(--primary-hue,5%, var(--dark-lightness)));
     /*general container variavles*/

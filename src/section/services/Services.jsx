@@ -18,7 +18,7 @@ const Services = () => {
 
             <Container>
                <Tabs
-      defaultActiveKey="profile"
+      defaultActiveKey="home"
       id="justify-tab-example"
       className="mb-3"
       justify
@@ -128,10 +128,28 @@ const Services = () => {
                                         </div>
                                     </div>
                 </Col>
-  
+                <Col xs={12} sm={12} md={12}>
+                <div className="image-flip">
+                                        <div className="mainflip">
+                                            <div className="frontside">
+                                            <img src={piciii} alt="third"/>
+                                            </div>
+                                            <div  className="backside hoverclass">
+                                                    <div className="card card-body text-center p-5 mt-4">
+                                                        <h5 className="card-title font-weight-bold text-white">لورم ایپسوم
+                                                        </h5>
+                                                        <p className="card-text text-white text-justify">لورم ایپسوم متن
+                                                            ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از
+                                                            طراحان گرافیک است،لورم ایپسوم ها کاربردهای</p>
+                                                            <a href='#portfolio' className='bttn light'>...اطلاعات بیشتر</a>
 
-
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                </Col>
             </Row>   
+               
                 </Tab>
       <Tab eventKey="profile" title="تدوین" tabClassName='colortab'>
       <Row>

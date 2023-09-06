@@ -26,10 +26,6 @@ const Myteam = (props) => {
                     <a href="https://codepen.io/collection/XdWJOQ/"
                         aria-hidden="true"><i className='bx bxl-facebook-circle'></i></a>
                 </li>
-                <li>
-                    <a href="https://codepen.io/collection/XdWJOQ/"
-                        aria-hidden="true"><i className='bx bxl-github'></i></a>
-                </li>
             </ul>
         </div>
     );

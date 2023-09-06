@@ -31,7 +31,7 @@ const Walpaper = () => {
     </svg>
   </div>
   <div class="main">
-  <h2 className='title'>همیشه همراه شما با بهترین قاب ها</h2>
+  {/* <h2 className='title'>همیشه همراه شما با بهترین قاب ها</h2> */}
   
     <div class="main__text-wrapper">
      

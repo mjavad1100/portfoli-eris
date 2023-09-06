@@ -1,6 +1,8 @@
 import HeaderImage from '../../img/marhooom.jpg'
 import './about.css'
 import data from './data';
+import 'animate.css';
+
 const About = () => {
     return (
       <section>
@@ -11,7 +13,7 @@ const About = () => {
         <div className="header__profile">
       <img src={HeaderImage} alt='portfolio__image'/>
         </div>
-        <h3 className='text-center'>محمد رضا ابراهیمی لویه</h3>
+        <h3 className='text-center '>محمد رضا ابراهیمی لویه</h3>
         <p className='myptag'>باغبان باید پنج روز در مورد گل صحبت کند.
           بر یافای خاردار هجران، صبر بلبل باید باشد.
           درد دل شما از پریشانی روحی.

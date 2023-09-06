@@ -22,7 +22,7 @@
     --light-warning: #FFF2C6;
     --success: #068FFF;
     --light-success: #BBF7D0;
-    --primary-hue:272;
+    --primary-hue:40;
     --black-lightness:15%;
     --dark-lightness:44%;
     --light-lightness:85%;
@@ -37,7 +37,7 @@
     --container-width-md:90%;
     /*border radius variables*/
     --border-radius-1:1.2rem;
-    --border-radius-2:0.8rem;
+    --border-radius-2:0.4rem;
     --border-radius-3:0.5rem;
     /*general transition variable*/
     --transition:all 500ms ease;

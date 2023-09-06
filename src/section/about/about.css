@@ -55,6 +55,7 @@ gap: 1rem;
     padding: 10px;
     background: var(--color-light);
     color: var(--color-black);
+    border: 2px solid var(--color-primary);
     display: grid;
     place-items: center;
     border-radius: var(--border-radius-1);

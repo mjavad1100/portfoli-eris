@@ -1,10 +1,14 @@
 .background{
     background-color:var(--color-primary);
+    border:1px solid var(--color-primary);
+box-shadow: 0 0 20px var(--color-primary);
+    
 }
 .header__socialss {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
     }
     .header__socialss a{
         font-size: 23px;

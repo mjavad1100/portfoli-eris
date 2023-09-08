@@ -56,6 +56,8 @@
 }
 
 .our-team .picture img {
+    border: 1px solid var(--color-primary);
+    box-shadow: 0 0 20px var(--color-primary);
     width: 100%;
     height: auto;
     border-radius: 50%;
@@ -64,7 +66,7 @@
 }
 
 .our-team:hover .picture img {
-    box-shadow: 0 0 0 14px var(--color-light);
+    box-shadow: 0 0 0 20px var(--color-light);
     transform: scale(0.7);
     transition: 0.5s;
 }
@@ -105,7 +107,7 @@
     margin: 5px;
     font-size: 22px;
     color: var(--color-primary);
-    transition: all 0.5s ease 0.5s;
+    transition: all 0.5s ease 0s;
     box-shadow: 0 0 15px var(--color-primary);
     border: 1px solid transparent;
     border-radius: 50%;
@@ -123,6 +125,6 @@
 
 .our-team .social li a:hover {
     color: var(--color-primary);
-    background-color: #f7f5ec;
+    background-color: var(--color-light);
 }
 

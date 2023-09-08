@@ -27,6 +27,8 @@ li:hover a{
   font-weight:bold;
 }
 @media (max-width :768px){
+  border:1px solid var(--color-primary);
+   box-shadow: 0 0 0  var(--color-primary);
   margin:0;
   flex-direction:column;
   background:var(--color-primary);

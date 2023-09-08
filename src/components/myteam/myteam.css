@@ -7,8 +7,9 @@
     overflow: hidden;
     position: relative;
     box-shadow: 0 0 27px var(--color-primary);
-    border: 1px inset var(--color-primary);
-    border-radius: 2rem;
+    border: 1px solid var(--color-primary);
+    border-radius: 1rem;
+    height: 400px;
 }
 
 .our-team .picture {
@@ -59,12 +60,13 @@
     height: auto;
     border-radius: 50%;
     transform: scale(1);
-    transition: all 0.9s ease 0s;
+    transition: all 0.5s ease 0s;
 }
 
 .our-team:hover .picture img {
-    box-shadow: 0 0 0 14px #f7f5ec;
+    box-shadow: 0 0 0 14px var(--color-light);
     transform: scale(0.7);
+    transition: 0.5s;
 }
 
 .our-team .title {
@@ -83,8 +85,8 @@
     position: absolute;
     bottom: -100px;
     left: 0;
-    transition: all 0.2s ease 0.1s;
-    box-shadow: 14px 14px 14px 14px var(--color-primary);
+    transition: all 0.5s ease 0s;
+    box-shadow: 0 0 25px var(--color-primary);
 
 }
 
@@ -103,15 +105,16 @@
     margin: 5px;
     font-size: 22px;
     color: var(--color-primary);
-    transition: all 0.3s ease 0s;
-    box-shadow: 0 0 7px var(--color-primary);
-    border: 1px inset transparent;
+    transition: all 0.5s ease 0.5s;
+    box-shadow: 0 0 15px var(--color-primary);
+    border: 1px solid transparent;
     border-radius: 50%;
     text-decoration: none;
 }
 
 .our-team:hover .social {
     bottom: 0;
+    transition: 0.5s;
 }
 
 .our-team .social li {
@@ -122,7 +125,4 @@
     color: var(--color-primary);
     background-color: #f7f5ec;
 }
-.our-team{
-    
-    border: 4px inset var(--color-primary)!important;
-height: 400px;}
+

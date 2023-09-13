@@ -13,7 +13,11 @@ const About = () => {
         <div className="header__profile">
       <img src={HeaderImage} alt='portfolio__image'/>
         </div>
+        <div className='myanim'></div>
+        <div className='myanim2'></div>
         <h3 className='text-center '>محمد رضا ابراهیمی لویه</h3>
+        <div className='myanim2'></div>
+
         <p className='myptag'>باغبان باید پنج روز در مورد گل صحبت کند.
           بر یافای خاردار هجران، صبر بلبل باید باشد.
           درد دل شما از پریشانی روحی.

@@ -12,15 +12,15 @@ const About = () => {
       
       <header id='about' className='header'>
         <div className="container header__container">
-        <AnimationOnScroll animateIn="animate__slideInRight">
+        <AnimationOnScroll animateIn="animate__slideInRight" delay={100}>
         <div className="header__profile">
       <img src={HeaderImage} alt='portfolio__image'/>
         </div>
         </AnimationOnScroll>
-        <AnimationOnScroll animateIn="animate__slideInLeft">
+        <AnimationOnScroll animateIn="animate__slideInLeft"delay={100}>
                <h2 className='text-center text-duty'>محمد رضا ابراهیمی لویه</h2>
         </AnimationOnScroll>
-<AnimationOnScroll animateIn="animate__jackInTheBox">
+<AnimationOnScroll animateIn="animate__jackInTheBox" delay={100}>
         <p className='myptag'>باغبان باید پنج روز در مورد گل صحبت کند.
           بر یافای خاردار هجران، صبر بلبل باید باشد.
           درد دل شما از پریشانی روحی.

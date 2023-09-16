@@ -7,20 +7,19 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const About = () => {
     return (
+
       <section>
+      <AnimationOnScroll animateIn="animate__jackInTheBox">
 
       
       <header id='about' className='header'>
         <div className="container header__container">
-        <AnimationOnScroll animateIn="animate__slideInRight">
+        <AnimationOnScroll animateIn="animate__zoomIn">
         <div className="header__profile">
       <img src={HeaderImage} alt='portfolio__image'/>
         </div>
         </AnimationOnScroll>
-        <AnimationOnScroll animateIn="animate__slideInLeft">
                <h2 className='text-center text-duty'>محمد رضا ابراهیمی لویه</h2>
-        </AnimationOnScroll>
-<AnimationOnScroll animateIn="animate__jackInTheBox">
         <p className='myptag'>باغبان باید پنج روز در مورد گل صحبت کند.
           بر یافای خاردار هجران، صبر بلبل باید باشد.
           درد دل شما از پریشانی روحی.
@@ -32,22 +31,22 @@ const About = () => {
               <a href='#contact' className='bttn light'>رزومه </a>
              
             </div>
-            </AnimationOnScroll>
 
             <div className="header__socials">
-            <AnimationOnScroll animateIn='animate__backInDown'>
 
               {
                 data.map(item => <a key={item.id} href={item.link} target="_blank" rel="noopener noreferrer">{item.icon}</a> )
               }
-                          </AnimationOnScroll>
+                        
 
             </div>
         </div>
         
       </header>
+      </AnimationOnScroll>
+
       </section>
-      
+
 
     );
 };

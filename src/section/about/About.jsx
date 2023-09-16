@@ -18,6 +18,8 @@ const About = () => {
       <img src={HeaderImage} alt='portfolio__image'/>
         </div>
         </AnimationOnScroll>
+        <AnimationOnScroll animateIn="animate__jackInTheBox">
+
                <h2 className='text-center text-duty'>محمد رضا ابراهیمی لویه</h2>
         <p className='myptag'>باغبان باید پنج روز در مورد گل صحبت کند.
           بر یافای خاردار هجران، صبر بلبل باید باشد.
@@ -30,15 +32,14 @@ const About = () => {
               <a href='#contact' className='bttn light'>رزومه </a>
              
             </div>
+            </AnimationOnScroll>
 
             <div className="header__socials">
-            <AnimationOnScroll animateIn="animate__jackInTheBox">
 
               {
                 data.map(item => <a key={item.id} href={item.link} target="_blank" rel="noopener noreferrer">{item.icon}</a> )
               }
                         
-                        </AnimationOnScroll>
 
             </div>
         </div>

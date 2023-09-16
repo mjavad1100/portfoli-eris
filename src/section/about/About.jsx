@@ -9,7 +9,6 @@ const About = () => {
     return (
 
       <section>
-      <AnimationOnScroll animateIn="animate__jackInTheBox">
 
       
       <header id='about' className='header'>
@@ -33,17 +32,18 @@ const About = () => {
             </div>
 
             <div className="header__socials">
+            <AnimationOnScroll animateIn="animate__jackInTheBox">
 
               {
                 data.map(item => <a key={item.id} href={item.link} target="_blank" rel="noopener noreferrer">{item.icon}</a> )
               }
                         
+                        </AnimationOnScroll>
 
             </div>
         </div>
         
       </header>
-      </AnimationOnScroll>
 
       </section>
 

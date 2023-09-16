@@ -27,7 +27,6 @@ const About = () => {
           مرغ زیرک چون به دام افتاده باید تحملش کنی
           دنیا را با مصلحت روشن کنید
         </p>
-          
             <div className="header__cta">
               <a href='#services' className='bttn primary'>خدمات</a>
               <a href='#contact' className='bttn light'>رزومه </a>
@@ -36,9 +35,13 @@ const About = () => {
             </AnimationOnScroll>
 
             <div className="header__socials">
+            <AnimationOnScroll animateIn='animate__backInDown'>
+
               {
                 data.map(item => <a key={item.id} href={item.link} target="_blank" rel="noopener noreferrer">{item.icon}</a> )
               }
+                          </AnimationOnScroll>
+
             </div>
         </div>
         

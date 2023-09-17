@@ -18,7 +18,7 @@ const About = () => {
       <img src={HeaderImage} alt='portfolio__image'/>
         </div>
         </AnimationOnScroll>
-        <AnimationOnScroll animateIn="animate__jackInTheBox">
+        <AnimationOnScroll animateIn="animate__zoomInRight">
 
                <h2 className='text-center text-duty'>محمد رضا ابراهیمی لویه</h2>
         <p className='myptag'>باغبان باید پنج روز در مورد گل صحبت کند.

@@ -18,9 +18,9 @@ const About = () => {
       <img src={HeaderImage} alt='portfolio__image'/>
         </div>
         </AnimationOnScroll>
-        <AnimationOnScroll animateIn="animate__zoomInRight">
+        <AnimationOnScroll animateIn="animate__zoomIn">
 
-               <h2 className='text-center text-duty'>محمد رضا ابراهیمی لویه</h2>
+               <h2 className='text-center text-duty m-2'>محمد رضا ابراهیمی لویه</h2>
         <p className='myptag'>باغبان باید پنج روز در مورد گل صحبت کند.
           بر یافای خاردار هجران، صبر بلبل باید باشد.
           درد دل شما از پریشانی روحی.

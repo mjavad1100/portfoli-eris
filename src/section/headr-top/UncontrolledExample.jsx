@@ -12,7 +12,7 @@ function UncontrolledExample() {
     <Carousel>
       <Carousel.Item>
         <img
-          className="d-block w-100 h-100"
+          className="d-block w-100 h-50"
           src={Imagei}
           alt="First slide"
         />
@@ -23,7 +23,7 @@ function UncontrolledExample() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100 h-100"
+          className="d-block w-100 h-50"
           src={Imageii}
           alt="Second slide"
         />
@@ -35,7 +35,7 @@ function UncontrolledExample() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100 h-100"
+          className="d-block w-100 h-50"
           src={Imageiii}
           alt="Third slide"
         />
@@ -49,7 +49,7 @@ function UncontrolledExample() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100 h-100"
+          className="d-block w-100 h-50"
           src={Imageiiii}
           alt="Second slide"
         />
@@ -61,7 +61,7 @@ function UncontrolledExample() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100 h-100"
+          className="d-block w-100 h-50"
           src={Imageiiiii}
           alt="Second slide"
         />

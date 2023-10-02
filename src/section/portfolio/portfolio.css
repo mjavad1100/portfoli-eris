@@ -11,12 +11,14 @@
 .myform a{
     font-size: 3rem;
     padding: 2rem;
-    border:1px solid var(--color-primary);
+    border:1px solid var(--color-light);
     border-radius: 50%;
+    background-color: var(--color-primary);
    
 }
 .myform a .myicon{
-    color: var(--color-primary);
+    color: var(--color-light);
+    
 
 }
 .myportfolio .capsion{
@@ -32,16 +34,24 @@
 }
 .capsion p{
     font-size: 18px;
+    color: var(--color-light);
 }
 .myform a:hover{
-    background-color: var(--color-primary);
+    background-color: var(--color-light);
     transition: 0.7s;
 
    
 }
 .myform a:hover .myicon{
-    color: var(--color-light);
+    color: var(--color-primary);
     transition: 0.8s;
    
+}
+.myparent{
+    background-color:black;
+    border: 2px solid var(--color-primary);
+    padding: 50px;
+    margin: 10px;
+    border-radius: 15px;
 }
 

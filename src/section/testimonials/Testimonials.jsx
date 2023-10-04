@@ -16,7 +16,13 @@ const Testimonials = () => {
     return (
        <section id='testimonials'>
         <Container>
-
+        <div className="mytitle1">
+                    <Row>
+                        <Col>
+                        <h1>تیم مآ</h1>
+                        </Col>
+                    </Row>
+                </div>
             <Row>
                 {/* Map over the array and pass each image as a prop */}
                 {teamImages.map(image => (

@@ -17,6 +17,13 @@ const Services = () => {
         <section>
 
             <Container>
+            <div className="mytitle2">
+                    <Row>
+                        <Col>
+                        <h1>نمونه کار ها</h1>
+                        </Col>
+                    </Row>
+                </div>
                <Tabs
       defaultActiveKey="home"
       id="justify-tab-example"

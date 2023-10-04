@@ -60,4 +60,15 @@
     margin: 10px;
     border-radius: var( --border-radius-1);
 }
+.mytitle{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.mytitle h1{
+color: var(--color-primary);
+font-weight: bold;
+text-shadow: 0 0 15px var(--color-primary);
+}
 

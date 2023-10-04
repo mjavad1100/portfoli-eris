@@ -14,7 +14,13 @@ const Portfolio = () => {
     return (
         <section id='portfolio'>
             <Container fluid>
-
+                <div className="mytitle">
+                    <Row>
+                        <Col>
+                        <h1>خدمات من</h1>
+                        </Col>
+                    </Row>
+                </div>
                 <Row className='myportfolio'>
                     <Col xs={12}  md={4}>
                     <AnimationOnScroll animateIn="animate__slideInRight">

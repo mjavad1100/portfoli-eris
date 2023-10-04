@@ -105,3 +105,17 @@
     font-weight:bold;
     border-color: var(--color-primary)!important;
 }
+.mytitle2 h1{
+    color: var(--color-light);
+    font-weight: bold;
+    text-shadow: 0 0 15px var(--color-light);
+    justify-content: center;
+    text-align: center;
+}
+.mytitle2{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+    

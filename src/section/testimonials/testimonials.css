@@ -1,7 +1,7 @@
 .mytitle1 h1{
     color: var(--color-primary);
     font-weight: bold;
-    text-shadow: 0 0 15px var(--color-primary);
+    text-shadow: 0 0 1px var(--color-primary);
     justify-content: center;
     text-align: center;
     

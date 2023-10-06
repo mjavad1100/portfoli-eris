@@ -34,7 +34,6 @@
     color: var(--color-primary);
     padding: 15px;
     font-weight: 900;
-    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .capsion p{
     font-size: 18px;
@@ -53,10 +52,8 @@
 }
 .myparent{
     background-color:black;
-    box-shadow: 0 0 25px var(--color-primary);
-
-    border: 6px inset var(--color-primary);
-    padding: 50px;
+    box-shadow: 0 0 15px var(--color-primary);
+    padding: 45px;
     margin: 10px;
     border-radius: var( --border-radius-1);
 }
@@ -69,6 +66,9 @@
 .mytitle h1{
 color: var(--color-primary);
 font-weight: bold;
-text-shadow: 0 0 15px var(--color-primary);
+text-shadow: 0 0 1px var(--color-primary);
 }
-
+.capsion p{
+    text-align: justify;
+    font-family: Tahoma, sans-serif;
+}

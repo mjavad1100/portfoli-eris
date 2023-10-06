@@ -108,7 +108,7 @@
 .mytitle2 h1{
     color: var(--color-light);
     font-weight: bold;
-    text-shadow: 0 0 15px var(--color-light);
+    text-shadow: 0 0 1px var(--color-light);
     justify-content: center;
     text-align: center;
 }

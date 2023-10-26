@@ -8,6 +8,12 @@ import picii from '../../img/photo_2.jpg'
 import piciii from '../../img/photo_3.jpg'
 import piciiii from '../../img/photo_4.jpg'
 import piciiiiii from '../../img/photo_5.jpg'
+import photo_1 from '../../img/photo_7.jpg'
+import photo_2 from '../../img/marhooom2.jpg'
+import photo_3 from '../../img/camera5.jpg'
+import photo_4 from '../../img/camera4.jpg'
+
+
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 
@@ -164,7 +170,7 @@ const Services = () => {
                 <div className="image-flip">
                                         <div className="mainflip">
                                             <div className="frontside">
-                                                <img src={pici} alt="third"/>
+                                                <img src={photo_1} alt="third"/>
                                             </div>
                                             <div className="backside hoverclass">
                                                     <div className="card card-body text-center p-5 mt-4">
@@ -184,7 +190,7 @@ const Services = () => {
                 <div className="image-flip">
                                         <div className="mainflip">
                                             <div className="frontside">
-                                            <img src={picii} alt="third"/>
+                                            <img src={photo_2} alt="third"/>
                                             </div>
                                             <div className="backside hoverclass">
                                                     <div className="card card-body text-center p-5 mt-4">
@@ -204,7 +210,7 @@ const Services = () => {
                 <div className="image-flip">
                                         <div className="mainflip">
                                             <div className="frontside">
-                                            <img src={piciiiiii} alt="third"/>
+                                            <img src={photo_3} alt="third"/>
                                             </div>
                                             <div className="backside hoverclass">
                                                     <div className="card card-body text-center p-5 mt-4">
@@ -228,7 +234,7 @@ const Services = () => {
                 <div className="image-flip">
                                         <div className="mainflip">
                                             <div className="frontside">
-                                                <img src={pici} alt="third"/>
+                                                <img src={photo_4} alt="third"/>
                                             </div>
                                             <div className="backside hoverclass">
                                                     <div className="card card-body text-center p-5 mt-4">

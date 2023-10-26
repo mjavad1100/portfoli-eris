@@ -10,8 +10,8 @@ const Myteam = (props) => {
             <img src={props.image} alt='Team member' />
             </div>
             <div className="team-content">
-                <h3 className="name">لورم ایپسوم</h3>
-                <h4 className="title">متن از پیش ساخته</h4>
+                <h3 className="name">{props.Name}</h3>
+                <h4 className="title">{props.Job}</h4>
             </div>
             <ul className="social">
                 <li>

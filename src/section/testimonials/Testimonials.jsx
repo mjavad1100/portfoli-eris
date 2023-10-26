@@ -24,10 +24,14 @@ const Testimonials = () => {
                     </Row>
                 </div>
             <Row>
-                {/* Map over the array and pass each image as a prop */}
+            <Col><Myteam image={myteam1} Name={"محمدرضا ابراهیمی"} Job={"مدیر گروه"}/></Col>
+            <Col><Myteam image={myteam2} Name={"تینا قربانیان"} Job={"تدوینگر"}/></Col>
+            <Col><Myteam image={myteam3} Name={"عباس بوعلی"} Job={"کارگردان"}/></Col>
+            <Col><Myteam image={myteam4} Name={"امین ساران"} Job={"طراح"}/></Col>
+                {/* Map over the array and pass each image as a prop
                 {teamImages.map(image => (
-                    <Col><Myteam image={image}/></Col>
-                ))}
+                    <Col><Myteam image={image} Name={"محمدرضا ابراهیمی"} Job={"مدیر گروه"}/></Col>
+                ))} */}
             </Row>
         </Container>
        </section>

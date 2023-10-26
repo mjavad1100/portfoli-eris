@@ -43,7 +43,7 @@ li:hover a{
   justify-content:left;
   transition: all 0.3s linear;
   height:100vh;
-  width:100%;
+  width:80%;
   padding-top:3.5rem;
   li a{
     color:#fff;

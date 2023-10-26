@@ -11,7 +11,7 @@ const Myteam = (props) => {
             </div>
             <div className="team-content">
                 <h3 className="name">{props.Name}</h3>
-                <h4 className="title">{props.Job}</h4>
+                <p className="title">{props.Job}</p>
             </div>
             <ul className="social">
                 <li>

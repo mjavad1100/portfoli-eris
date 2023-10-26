@@ -73,10 +73,16 @@
 
 .our-team .title {
     display: block;
-    font-size: 15px;
-    color: #4e5052;
+    font-size: 23px;
+    color: var(--color-primary);
     text-transform: capitalize;
+    text-shadow: 0 0 7px var(--color-primary);
     padding: 20px;
+}
+.our-team .name{
+    font-size: 25px;
+    color: var(--color-light);
+    text-shadow: 0 0 2px var(--color-light);
 }
 
 .our-team .social {

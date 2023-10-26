@@ -11,7 +11,6 @@ import myteam4 from '../../img/team1.jpg'
 
 const Testimonials = () => {
     // Create an array of image imports
-    const teamImages = [myteam1, myteam2, myteam3, myteam4];
 
     return (
        <section id='testimonials'>

@@ -4,7 +4,7 @@ const Ul = styled.ul`
 list-style: none;
 margin:0;
 border:1px solid var(--color-primary);
-box-shadow: 0 0 20px var(--color-primary);
+box-shadow: 0 0 4px var(--color-primary);
 background-color:var(--color-primary);
 display:flex;
 justify-content:center;

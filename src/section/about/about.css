@@ -24,6 +24,7 @@
     
 }
 .header__container p {
+    
 width: 40rem;
 text-align: justify;
 direction: rtl;
@@ -38,6 +39,7 @@ font-size: 1.1rem;
     align-items: center;
     justify-content: center;
     gap: 1.2rem;
+    
 }
 .header__socials {
 position: absolute;
@@ -97,4 +99,6 @@ gap: 1rem;
 }
 .text-duty{
 text-shadow:0 0 4px var(--color-white);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }

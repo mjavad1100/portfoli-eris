@@ -10,12 +10,14 @@ import Burger from './section/navbar/Burger';
 import 'bootstrap/dist/css/bootstrap-grid.css';
 import Headertop from './section/headr-top/Headertop';
 import UncontrolledExample from './section/headr-top/UncontrolledExample';
+// import Myvideo from './components/myvideo/Myvideo';
 
 const App = () => {
     return (
         <div>
             <main>
                 <Headertop/>
+                {/* <Myvideo/> */}
                 <UncontrolledExample/>
                 <Burger/>
                 <About/>

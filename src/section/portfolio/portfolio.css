@@ -1,9 +1,4 @@
-.myportfolio{
-    display: flex;
-    justify-content:center;
-    flex-direction: row;
-    align-items: center;
-}
+
 .myform{
     display: flex;
     justify-content: center;
@@ -41,18 +36,23 @@
 .capsion p{
     font-size: 18px;
     color: var(--color-light);
+    cursor:pointer;
 }
 .myparent:hover a{
     background-color:black;
     transition: 0.5s;
     border-color: var(--color-primary);
+    border-style:solid;
+}
+.myparent:hover .myicon{
+    color: var(--color-primary);
+    transition: 0.5s;
 }
 
 .myparent:hover{
     transition: 0.5s;
-    border-top: 8px solid var(--color-primary);
-    border-bottom: 4px solid var(--color-primary);
-    cursor: pointer;
+    border-bottom: 0;
+    border-top:8px solid var(--color-primary) ;
    
 }
 
@@ -70,7 +70,7 @@
     display: flex;
     justify-content: center;
     padding: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     
 }
 .mytitle h1{

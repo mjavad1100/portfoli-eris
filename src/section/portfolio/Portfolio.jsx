@@ -13,7 +13,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 const Portfolio = () => {
     return (
         <section id='portfolio'>
-            <Container fluid>
+            <Container>
                 <div className="mytitle">
                     <Row>
                         <Col>

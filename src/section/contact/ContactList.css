@@ -1,6 +1,5 @@
 .mycontainer{
-    width: 100%; 
-    margin-bottom: 100px;
+    width: 63%; 
     text-align: center;
 
 }
@@ -28,4 +27,10 @@
     margin-top: 20px;
     padding: 5px;
     border-radius: 15px;
+}
+
+@media (max-width:500px) {
+    .mycontainer{
+        width: 100%;
+    }
 }

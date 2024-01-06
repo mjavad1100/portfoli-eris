@@ -85,6 +85,7 @@ gap: 1rem;
     }
     .header__container p {
         width: 100%;
+        font-size: 1rem;
     }
     .header__cta {
         gap: 1rem;
@@ -93,6 +94,9 @@ gap: 1rem;
         position: absolute;
         top: 25;
         right:225;
+    }
+    .text-duty{
+        font-size: 1.6rem;
     }
 }
 .text-duty{

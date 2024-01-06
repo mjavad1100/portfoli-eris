@@ -1,10 +1,11 @@
 import React from 'react';
 import "../myteam/myteam.css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 
 const Myteam = (props) => {
     return (
-        
+        <AnimationOnScroll animateIn='animate__bounceIn'>
         <div className="our-team">
             <div className="picture">
             <img src={props.image} alt='Team member' />
@@ -28,6 +29,8 @@ const Myteam = (props) => {
                 </li>
             </ul>
         </div>
+        </AnimationOnScroll>
+
     );
 };
 
